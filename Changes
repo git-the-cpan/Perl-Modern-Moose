@@ -1,5 +1,9 @@
 Revision history for Perl-Modern-Moose
 
-1.000  Mon Dec 14 13:21:57 2015
-       Initial CPAN release.
+1.000  Tue Dec 15 14:23:40 2015
+       Initial release.
+
+1.001  Tue Dec 15 16:27:00 2015
+       Correction of the documentation
+
 

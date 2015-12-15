@@ -3,7 +3,7 @@
 # # -------------------------------------------------------------------------- #
 # # Copyright  : Frei unter GNU General Public License  bzw.  Artistic License #
 # # Authors    : JVBSOFT - J¸rgen von Brietzke                   0.001 - 1.000 #
-# # Version    : 1.000                                             31.Dez.2015 #
+# # Version    : 1.001                                             15.Dez.2015 #
 # # -------------------------------------------------------------------------- #
 # # Function   : L‰dt grundlegende Perl-Moose Module.                          #
 # # -------------------------------------------------------------------------- #
@@ -24,7 +24,7 @@
 # #              MooseX::HasDefault::RO                                        #
 # ##############################################################################
 
-package Perl::Modern::Moose 1.000;
+package Perl::Modern::Moose 1.001;
 
 # ##############################################################################
 
@@ -82,18 +82,19 @@ Perl::Modern::Moose - Loading essential Perl Moose modules.
 
 =head1 VERSION
 
-This document describes Perl::Modern::Moose version 1.000
+This document describes Perl::Modern::Moose version 1.001
 
 
 =head1 SYNOPSIS
 
    use Perl::Modern::Moose;
-
+  
   
 =head1 DESCRIPTION
-   The PERL Moose modules listed below are included in the namespace of the
-   including module:
-   
+
+The PERL Moose modules listed below are included in the namespace of the
+including module:
+
    - Moose
    - Moose::Exporter
    - Moose::Util::TypeConstraints
@@ -101,19 +102,58 @@ This document describes Perl::Modern::Moose version 1.000
    - MooseX::DeclareX
    - MooseX::HasDefaults::RO
    - namespace::autoclean
-   
-   When you exit the namespace an auto-mix 'meta> make_immutable' is executed.
+
+When you exit the namespace an auto-mix 'meta> make_immutable' is executed.
+
+
+=head1 INTERFACE 
+
+Contains no routines that are invoked explicitly.
+
+
+=head2 init_meta
+
+Called automatically when integrating.
+
+
+=head1 DIAGNOSTICS
+
+none
+
+
+=head1 CONFIGURATION AND ENVIRONMENT
+
+Perl::Modern::Moose requires no configuration files or environment variables.
+
+
+=head1 DEPENDENCIES
+
+None.
+
+
+=head1 INCOMPATIBILITIES
+
+None reported.
+
+
+=head1 BUGS AND LIMITATIONS
+
+No bugs have been reported.
+
+Please report any bugs or feature requests to
+C<bug-perl-modern-moose@rt.cpan.org>, or through the web interface at
+L<http://rt.cpan.org>.
 
 
 =head1 AUTHOR
 
-JueÅrgen von Brietzke  C<< <juergen.von.brietzke@t-online.de> >>
+Juergen von Brietzke  C<< <juergen.von.brietzke@t-online.de> >>
 
 
 =head1 LICENCE AND COPYRIGHT
 
 Copyright (c) 2015,
-JueÅrgen von Brietzke C<< <juergen.von.brietzke@t-online.de> >>.
+Juergen von Brietzke C<< <juergen.von.brietzke@t-online.de> >>.
 All rights reserved.
 
 This module is free software; you can redistribute it and/or

@@ -1,6 +1,18 @@
-Perl-Modern-Moose version 1.000
+Perl-Modern-Moose version 1.001
 
-Loading essential Perl Moose modules.
+The PERL Moose modules listed below are included in the namespace of the
+including module:
+
+   - Moose
+   - Moose::Exporter
+   - Moose::Util::TypeConstraints
+   - MooseX::AttributeShortcuts
+   - MooseX::DeclareX
+   - MooseX::HasDefaults::RO
+   - namespace::autoclean
+
+When you exit the namespace an auto-mix 'meta> make_immutable' is executed.
+
 
 INSTALLATION
 

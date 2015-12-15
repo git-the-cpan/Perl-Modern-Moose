@@ -1,7 +1,33 @@
 use Test::More tests => 1;
+{
 
-BEGIN {
-use_ok( 'Perl::Modern::Moose' );
+   package Test::Moose;
+
+   use strict;
+
+   use warnings;
+
+   use Perl::Modern::Moose;
+
+
+
+   has thing => (
+
+        isa => 'Str',
+
+        is => 'rw',
+
+    );
+
+
+    1;
+
 }
 
-diag( "Testing Perl::Modern::Moose $Perl::Modern::Moose::VERSION" );
+
+
+ok( Test::Moose->meta->is_immutable, "Autamatically Immutable" );
+
+
+
+done_testing();
