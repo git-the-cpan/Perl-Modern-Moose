@@ -2,9 +2,11 @@ Build.PL
 Changes
 lib/Perl/Modern/Moose.pm
 Makefile.PL
-MANIFEST			This list of files
+MANIFEST                 This list of files
 README
 t/00.load.t
 t/perlcritic.t
 t/pod-coverage.t
 t/pod.t
+xt/boilerplate.t
+xt/.perlcriticrc

@@ -4,7 +4,7 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     NAME                => 'Perl::Modern::Moose',
-    AUTHOR              => 'Juergen von Brietzke <juergen.von.brietzke@t-online.de>',
+    AUTHOR              => 'Juergen von Brietzke <juergen.von.brietzke@t-online.de>',
     VERSION_FROM        => 'lib/Perl/Modern/Moose.pm',
     ABSTRACT_FROM       => 'lib/Perl/Modern/Moose.pm',
     PL_FILES            => {},
@@ -20,6 +20,12 @@ WriteMakefile(
       'Test::More'                   => 0,
       'version'                      => 0,
       'namespace::autoclean'         => 0,
+    },
+    BUILD_REQUIRES => {
+        'Test::More'          => 0,
+        'Test::Perl::Critic'  => 0,
+        'Test::Pod'           => 1.14,
+        'Test::Pod::Coverage' => 1.04,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Perl-Modern-Moose-*' },

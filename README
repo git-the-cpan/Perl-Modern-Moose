@@ -1,4 +1,4 @@
-Perl-Modern-Moose version 1.001
+Perl-Modern-Moose version 1.002
 
 The PERL Moose modules listed below are included in the namespace of the
 including module:
@@ -18,23 +18,32 @@ INSTALLATION
 
 To install this module, run the following commands:
 
-	perl Makefile.PL
-	make
-	make test
-	make install
+   perl Makefile.PL
+   make
+   make test
+   make install
 
 Alternatively, to install with Module::Build, you can use the following commands:
 
-	perl Build.PL
-	./Build
-	./Build test
-	./Build install
+   perl Build.PL
+   ./Build
+   ./Build test
+   ./Build install
 
 
 DEPENDENCIES
 
-None.
+The following pragmas and modules are required:
 
+   - namespace::autoclean
+   - English
+   - Hook::AfterRuntime
+   - Moose
+   - Moose::Exporter
+   - Moose::Util::TypeConstraints
+   - MooseX::AttributeShortcuts
+   - MooseX::DeclareX
+   - MooseX::HasDefaults::RO
 
 COPYRIGHT AND LICENCE
 

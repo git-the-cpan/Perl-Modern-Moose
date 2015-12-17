@@ -2,8 +2,8 @@
 # # Script     : Perl::Modern::Moose                                           #
 # # -------------------------------------------------------------------------- #
 # # Copyright  : Frei unter GNU General Public License  bzw.  Artistic License #
-# # Authors    : JVBSOFT - Jürgen von Brietzke                   0.001 - 1.000 #
-# # Version    : 1.001                                             15.Dez.2015 #
+# # Authors    : JVBSOFT - Jürgen von Brietzke                   0.001 - 1.002 #
+# # Version    : 1.002                                             17.Dez.2015 #
 # # -------------------------------------------------------------------------- #
 # # Function   : Lädt grundlegende Perl-Moose Module.                          #
 # # -------------------------------------------------------------------------- #
@@ -24,7 +24,7 @@
 # #              MooseX::HasDefault::RO                                        #
 # ##############################################################################
 
-package Perl::Modern::Moose 1.001;
+package Perl::Modern::Moose 1.002;
 
 # ##############################################################################
 
@@ -82,14 +82,14 @@ Perl::Modern::Moose - Loading essential Perl Moose modules.
 
 =head1 VERSION
 
-This document describes Perl::Modern::Moose version 1.001
+This document describes Perl::Modern::Moose version 1.002
 
 
 =head1 SYNOPSIS
 
    use Perl::Modern::Moose;
-  
-  
+
+
 =head1 DESCRIPTION
 
 The PERL Moose modules listed below are included in the namespace of the
@@ -106,7 +106,7 @@ including module:
 When you exit the namespace an auto-mix 'meta> make_immutable' is executed.
 
 
-=head1 INTERFACE 
+=head1 INTERFACE
 
 Contains no routines that are invoked explicitly.
 
