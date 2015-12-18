@@ -1,0 +1,56 @@
+{
+   "abstract" : "Loading essential Perl Moose modules.",
+   "author" : [
+      "Juergen von Brietzke <juergen.von.brietzke@t-online.de>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4214",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Perl-Modern-Moose",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0",
+            "Test::Perl::Critic" : "0",
+            "Test::Pod" : "1.14",
+            "Test::Pod::Coverage" : "1.04"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.42"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "English" : "0",
+            "Hook::AfterRuntime" : "0",
+            "Moose" : "0",
+            "Moose::Exporter" : "0",
+            "Moose::Util::TypeConstraints" : "0",
+            "MooseX::AttributeShortcuts" : "0",
+            "MooseX::Declare" : "0",
+            "MooseX::DeclareX" : "0",
+            "MooseX::DeclareX::Privacy" : "0",
+            "MooseX::HasDefaults::RO" : "0",
+            "namespace::autoclean" : "0",
+            "version" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Perl::Modern::Moose" : {
+         "file" : "lib/Perl/Modern/Moose.pm",
+         "version" : "1.003"
+      }
+   },
+   "release_status" : "stable",
+   "version" : "1.003",
+   "x_serialization_backend" : "JSON::PP version 2.27300"
+}
