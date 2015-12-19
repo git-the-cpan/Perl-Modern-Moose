@@ -1,4 +1,5 @@
 Revision history for Perl-Modern-Moose
+================================================================================
 
 1.000  Mon 15.Dez.2015 - 14:30
        Initial CPAN release.
@@ -8,7 +9,10 @@ Revision history for Perl-Modern-Moose
        Makefile.P
        Build.PL
 
-1.003  Fri 17.Dez.2015 - 19:00
+1.003  Fri 18.Dez.2015 - 19:00
        Correction of the make-Scripts
        Makefile.P
        Build.PL
+
+1.004  Sam 19.Dez.2015 - 14:00
+       Supplements in POD and README

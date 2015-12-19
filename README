@@ -45,6 +45,10 @@ The following pragmas and modules are required:
    - MooseX::DeclareX
    - MooseX::HasDefaults::RO
 
+INCOMPATIBILITIES
+
+The module works with PERL 5.12 or higher.
+
 COPYRIGHT AND LICENCE
 
 Copyright (C) 2015, JueÅrgen von Brietzke

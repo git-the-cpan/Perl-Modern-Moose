@@ -1,13 +1,13 @@
-   # ##############################################################################
+# ##############################################################################
 # # Script     : Perl::Modern::Moose                                           #
 # # -------------------------------------------------------------------------- #
 # # Copyright  : Frei unter GNU General Public License  bzw.  Artistic License #
-# # Authors    : JVBSOFT - Jürgen von Brietzke                   0.001 - 1.003 #
-# # Version    : 1.003                                             18.Dez.2015 #
+# # Authors    : JVBSOFT - Jürgen von Brietzke                   0.001 - 1.004 #
+# # Version    : 1.004                                             19.Dez.2015 #
 # # -------------------------------------------------------------------------- #
 # # Function   : Lädt grundlegende Perl-Moose Module.                          #
 # # -------------------------------------------------------------------------- #
-# # Language   : PERL 5                                (V) 5.10.xx  -  5.22.xx #
+# # Language   : PERL 5                                (V) 5.12.xx  -  5.22.xx #
 # # Coding     : ISO 8859-15 / Latin-9                         UNIX-Zeilenende #
 # # Standards  : Perl-Best-Practices                       severity 1 (brutal) #
 # # -------------------------------------------------------------------------- #
@@ -24,9 +24,11 @@
 # #              MooseX::HasDefault::RO                                        #
 # ##############################################################################
 
-package Perl::Modern::Moose 1.003;
+package Perl::Modern::Moose 1.004;
 
 # ##############################################################################
+
+use 5.012;
 
 use namespace::autoclean;
 
@@ -82,7 +84,7 @@ Perl::Modern::Moose - Loading essential Perl Moose modules.
 
 =head1 VERSION
 
-This document describes Perl::Modern::Moose version 1.003
+This document describes Perl::Modern::Moose version 1.004.
 
 
 =head1 SYNOPSIS
@@ -103,7 +105,8 @@ including module:
    - MooseX::HasDefaults::RO
    - namespace::autoclean
 
-When you exit the namespace an auto-mix 'meta> make_immutable' is executed.
+When you exit the namespace an auto-mix 'meta> make_immutable' andd
+'namespace::autoclean' is executed.
 
 
 =head1 INTERFACE
@@ -128,12 +131,28 @@ Perl::Modern::Moose requires no configuration files or environment variables.
 
 =head1 DEPENDENCIES
 
-None.
+The following pragmas and modules are required:
+
+=head2 CORE
+
+   - English
+   - Moose
+   - Moose::Exporter
+   - Moose::Util::TypeConstrains
+
+
+=head2 CPAN or ActiveState Repository
+
+   - namespace::autoclean
+   - Hook::AfterRuntime
+   - MooseX::AttributeShortcuts
+   - MooseX::DeclareX
+   - MooseX::HasDefaults::RO
 
 
 =head1 INCOMPATIBILITIES
 
-None reported.
+The module works with PERL 5.12 or higher.
 
 
 =head1 BUGS AND LIMITATIONS

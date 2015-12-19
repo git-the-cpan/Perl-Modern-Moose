@@ -19,7 +19,7 @@ name: Perl-Modern-Moose
 provides:
   Perl::Modern::Moose:
     file: lib/Perl/Modern/Moose.pm
-    version: '1.003'
+    version: '1.004'
 requires:
   English: '0'
   Hook::AfterRuntime: '0'
@@ -33,5 +33,5 @@ requires:
   MooseX::HasDefaults::RO: '0'
   namespace::autoclean: '0'
   version: '0'
-version: '1.003'
+version: '1.004'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.016'

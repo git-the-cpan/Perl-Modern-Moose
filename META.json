@@ -47,10 +47,10 @@
    "provides" : {
       "Perl::Modern::Moose" : {
          "file" : "lib/Perl/Modern/Moose.pm",
-         "version" : "1.003"
+         "version" : "1.004"
       }
    },
    "release_status" : "stable",
-   "version" : "1.003",
+   "version" : "1.004",
    "x_serialization_backend" : "JSON::PP version 2.27300"
 }
