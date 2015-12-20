@@ -2,8 +2,8 @@
 # # Script     : Perl::Modern::Moose                                           #
 # # -------------------------------------------------------------------------- #
 # # Copyright  : Frei unter GNU General Public License  bzw.  Artistic License #
-# # Authors    : JVBSOFT - Jürgen von Brietzke                   0.001 - 1.004 #
-# # Version    : 1.004                                             19.Dez.2015 #
+# # Authors    : JVBSOFT - Jürgen von Brietzke                   0.001 - 1.005 #
+# # Version    : 1.005                                             20.Dez.2015 #
 # # -------------------------------------------------------------------------- #
 # # Function   : Lädt grundlegende Perl-Moose Module.                          #
 # # -------------------------------------------------------------------------- #
@@ -24,7 +24,7 @@
 # #              MooseX::HasDefault::RO                                        #
 # ##############################################################################
 
-package Perl::Modern::Moose 1.004;
+package Perl::Modern::Moose 1.005;
 
 # ##############################################################################
 
@@ -84,7 +84,7 @@ Perl::Modern::Moose - Loading essential Perl Moose modules.
 
 =head1 VERSION
 
-This document describes Perl::Modern::Moose version 1.004.
+This document describes Perl::Modern::Moose version 1.005.
 
 
 =head1 SYNOPSIS

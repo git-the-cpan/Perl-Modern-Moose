@@ -40,6 +40,7 @@
             "MooseX::DeclareX::Privacy" : "0",
             "MooseX::HasDefaults::RO" : "0",
             "namespace::autoclean" : "0",
+            "perl" : "5.012",
             "version" : "0"
          }
       }
@@ -47,10 +48,10 @@
    "provides" : {
       "Perl::Modern::Moose" : {
          "file" : "lib/Perl/Modern/Moose.pm",
-         "version" : "1.004"
+         "version" : "1.005"
       }
    },
    "release_status" : "stable",
-   "version" : "1.004",
+   "version" : "1.005",
    "x_serialization_backend" : "JSON::PP version 2.27300"
 }

@@ -16,3 +16,8 @@ Revision history for Perl-Modern-Moose
 
 1.004  Sam 19.Dez.2015 - 14:00
        Supplements in POD and README
+
+1.005  Son 20.Dez.2015 - 14:00
+       Minimum version of Perl in
+       Makefile.PL
+       Build.PL

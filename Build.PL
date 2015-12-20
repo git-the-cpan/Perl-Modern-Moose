@@ -8,6 +8,7 @@ my $builder = Module::Build->new(
    dist_author         => 'Juergen von Brietzke <juergen.von.brietzke@t-online.de>',
    dist_version_from   => 'lib/Perl/Modern/Moose.pm',
    requires => {
+      'perl'                         => 5.012000,
       'English'                      => 0,
       'Hook::AfterRuntime'           => 0,
       'Moose'                        => 0,
